@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App | Imachi.co.uk</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="quizContainer">
+            <div class="splash" hidden>
+                <h1>Quiz title</h1>
+                <button class="begin">Submit</button>
+            </div>
+            <div class="question">
+                <h1 id="q_title"></h1>
+            </div>
+            <div class="answers">
+                <button class="answer" id="ans_1" onclick="SubmitAnswer(1)">1</button>
+                <button class="answer" id="ans_2" onclick="SubmitAnswer(2)">2</button>
+                <button class="answer" id="ans_3" onclick="SubmitAnswer(3)">3</button>
+                <button class="answer" id="ans_4" onclick="SubmitAnswer(4)">4</button>
+            </div>
+            <div class="nav" hidden>
+                <button class="submit">Submit</button>
+            </div>
+
+            <div class="end" hidden>
+                <h1>Quiz title</h1>
+                <button class="begin">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
