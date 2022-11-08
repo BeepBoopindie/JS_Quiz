@@ -1,0 +1,49 @@
+{
+    "Questions":[
+        {
+            "title": "What is a dogs most powerful sense?",
+            "Answers":[
+                "Taste",
+                "Touch",
+                "Smell",
+                "Sight"
+            ],
+            "Answer": 3
+
+        },
+        {
+            "title": "Which breed of dog is often referred to as 'sausage dog'?",
+            "Answers":[
+                "Labrador",
+                "Dachshund",
+                "Bulldog",
+                "Spaniel"
+            ],
+            "Answer": 2
+
+        },
+        {
+            "title": "What breed is the smallest?",
+            "Answers":[
+                "Pomeranian",
+                "Chihuahua",
+                "Schnauzer",
+                "Yorkie"
+            ],
+            "Answer": 2
+
+        },
+        {
+            "title": "What breed is the largest?",
+            "Answers":[
+                "St. Bernard",
+                "Labrador",
+                "Great Dane",
+                "Newfoundland" 
+            ],
+            "Answer": 1
+
+        }
+    ]
+
+}
