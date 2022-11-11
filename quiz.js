@@ -13,7 +13,7 @@ async function LoadQuestions(Quizname){
     document.getElementById("splash").classList.remove("bounce");
     await sleep(10);
     document.getElementById("splash").classList.add("bounce");
-    await sleep(1000);
+    await sleep(900);
     const res = await fetch('./Quizzes/'+Quizname+'.json');
     Question_JSON = await res.json();
 
@@ -57,7 +57,7 @@ async function Reset(retry){
     }else{//Exit out of quiz and play animations
         CurrentQuiz = "";
         document.getElementById("endscreen").classList.add("bounce");
-        await sleep(1000);
+        await sleep(900);
         document.getElementById("endscreen").classList.remove("bounce");
         document.getElementById("splash").classList.add("bounce");
         document.getElementById("splash").classList.add("reverse");
@@ -67,7 +67,7 @@ async function Reset(retry){
 }
 
 function EndScreen(){
-        document.getElementById("endscreen").classList.remove("bounce");
+    document.getElementById("endscreen").classList.remove("bounce");
     var scoreMessage;
     var Result = score / QuestionCount ;
     document.getElementById("questionContainer").style.display = "none";
